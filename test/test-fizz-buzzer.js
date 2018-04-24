@@ -53,7 +53,7 @@ describe('fizzBuzzer', function() {
 
 		badInputs.forEach(function(input) {
 			expect(function() {
-				fizzBuzzer(input[]);
+				fizzBuzzer(input);
 			}).to.throw(Error);
 		});
 	});
